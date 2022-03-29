@@ -1,0 +1,8 @@
+#!/bin/bash 
+#echo "Script executed from: ${PWD}"
+PARENTDIR="$PWD"
+BASEDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+#BASEDIR=$(dirname $0)
+#echo "Script location from: ${BASEDIR}"
+#node bank.js "$@" "-x" "$PWD";
+node "${BASEDIR}"/atm.js "$@" "-x" "$PARENTDIR"

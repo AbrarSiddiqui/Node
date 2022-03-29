@@ -1,0 +1,21 @@
+{
+  "name": "bank-atm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "del": "^5.1.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "nodemon": "^2.0.2",
+    "uuid": "^7.0.1",
+    "yargs": "^15.1.0"
+  }
+}
